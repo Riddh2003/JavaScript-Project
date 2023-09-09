@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/JavaScript/Projects/img/wallpaper-iphone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;        
+}
+.box {
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.720);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35rem;
+    height: 35rem;
+    color: white;
+    font-family: sans-serif;
+    padding: 2rem;
+    gap: 1rem;
+}
+.box:hover{
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2),0px 0px 10px rgba(255, 255, 255, 0.2),0px 0px 10px rgba(255, 255, 255, 0.2),0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+.inner-box {
+    display: flex inline;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30rem;
+    height: 35rem;
+    gap: 1rem;
+}
+.text,.select,.button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 30rem;
+}
+.button{
+    gap: 3rem;
+}
+.input-tag,.option{
+    position: absolute;
+    border: solid white;
+    border-radius: 0.3rem;
+    background: transparent;
+    height: 1.7rem;
+    right: 2rem;
+    color: white;
+}
+.input-tag{
+    width: 15rem;
+}
+.option{
+    cursor: pointer;
+    right: 11rem;
+    width: 6rem;
+}
+.op-sel{
+    color: black;
+}
+p{
+    position: relative;
+    left: 2rem;
+    font-size: 1.2rem;
+}
+.rd-btn{
+    position: absolute;
+    right: 9rem;
+}
+.ch-btn{
+    position: absolute;
+    right: -0.8rem;
+}
+.last-btn{
+    display: flex;
+    gap: 2rem;
+}
+.re-btn{
+    background: transparent;
+    border-radius: 1rem;
+    border: solid white;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.re-btn:hover{
+    background-color: rgba(255, 255, 255, 0.799);
+    color: black;
+}
+.click{
+    cursor: pointer;
+}

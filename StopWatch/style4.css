@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-box{
+    position: absolute;
+    background: url('https://images.pexels.com/photos/21492/pexels-photo.jpg?cs=srgb&dl=pexels-bob-clark-21492.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    position: absolute;
+    border: solid black;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 40rem;
+    height: 14rem;
+    display: flex; 
+    flex-direction: column;
+}
+.box:hover{
+    box-shadow: 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black;
+}
+.time{
+    position: relative;
+    text-align: center;
+    font-size: 5rem;
+    top: 1rem;
+    font-family: sans-serif;
+    color: white;
+}
+.play-logo,.reset-logo{
+    position: relative;
+    border: solid white;
+    border-radius: 5px;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: white;
+    cursor: pointer;
+    margin: auto;
+}
+.play-logo{
+    top: 2rem;
+    right: 5rem;
+}
+.reset-logo{
+    left: 5rem;
+    bottom: 2rem;
+}
+.play-logo:hover,.reset-logo:hover{
+    box-shadow:  0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 5px white;
+}
+.logo{
+    position: relative;
+    color: rgb(248, 72, 72);
+    top: 0.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.5rem;
+}
+.re-logo{
+    position: relative;
+    color: rgb(248, 72, 72);
+    top: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.2rem;
+}
