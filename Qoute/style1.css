@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 body{
-    background: url(/img/Library.jpg);
+    background: url('/JavaScript-Project/img/Library.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .box1{
     position: relative;
@@ -24,8 +26,6 @@ body{
     height: 50px;
     text-align: center;
     padding-top: 10px;
-    top: 300px;
-    left: 600px;
 }
 .box2{
     position: relative;
@@ -33,30 +33,38 @@ body{
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.817);
     font-family: sans-serif;
-    width: 1000px;
-    height: 200px;
+    width: auto;
+    height: 12rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    top: 320px;
-    left: 250px;
-    padding: 20px;
+    margin-top: 2rem;
 }
-p{
+.quote{
+    position: relative;
+    width: 90%;
     text-align: center;
 }
-h2{
+.author{
+    position: relative;
+    font-weight: bolder;
+    text-align: center;
+    width: 90%;
     color: red;
 }
-button{
-    margin-top: 10px;
+.new-btn{
+    position: relative;
+    border: none;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: aqua;
     cursor: pointer;
-    width: 100px;
-    height: 30px;
-    font-size: 15px;
-    border: solid black;
-    border-radius: 5px;
-    color: white;
     background-color: black;
+}
+.new-btn:hover{
+    box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.575);
 }
