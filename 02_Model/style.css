@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/JavaScript-Project/img/wallpaperflare.com_wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.box1{
+    align-self: center;
+    position: relative;
+    border: solid white;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.751);
+    width: 12rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.box2{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    border: solid white;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    color: white;
+    width: 17rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.box2:hover{
+    border: solid black;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    background-color: white;
+    color: black;
+}
+.logo{
+    position: absolute;
+    border: solid red;
+    border-radius: 0.4rem;
+    background-color: red;
+    color: white;
+    padding: 0.2rem;
+    top: 0.2rem;
+    right: 0.5rem;
+    cursor: pointer;
+}
+.text{
+    font-size: 1.2rem;
+}
+.click_btn{
+    font-size: 1.5rem;
+}
